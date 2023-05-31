@@ -23,8 +23,8 @@ Plot the images using plt.imshow.
 ## Program:
 
 ```
-Developed by : Harini.B
-Register Number : 212221230035
+Developed by : Parshwanath M
+Register Number : 212221230073
 ```
 
 ```
@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 text_image = np.zeros((100,440),dtype = 'uint8')
 img=cv2.cvtColor(text_image,cv2.COLOR_BGR2RGB)
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(img,"Harini.B",(5,70),font,2,(0,0,255),5,cv2.LINE_AA)
+cv2.putText(img,"PARSH",(5,70),font,2,(0,0,255),5,cv2.LINE_AA)
 cv2.imshow("Original Image",img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
